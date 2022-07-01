@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  background-color: white;
+  
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+}
+
+.ibox {
+  width: 416px;
+  height: 100%;
+  border: 2px solid #BBBDC4;
+  float: left;
+  line-height: 90px;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+}
+
+a {
+  font-family: 'Roboto Mono', monospace;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-decoration: black;
+  color: inherit;
+}
+
+a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #8091D5;
+  transition: all .3s;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #8091D5;
+  transition: all .3s;
+}
+
+a:hover::after {
+  width: 50%;
+}
+
+a:hover::before {
+  width: 50%;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: 1px solid red;
+}
+
+
+.edu {
+  margin-top: 250px;
+  width: 100vw;
+  height: fit-content;
+}
+
+.ele {
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 400px;
+  font-size: 40px;
+  height: 200px;
+  border-radius: 42px;
+  border: 10px double #8091D5;
+  text-align: center;
+  font-family: 'Nanum Gothic Coding', monospace;
+  line-height: 100px;
+  word-break: break-all;
+}
+
+.mid {
+  margin-top: 100px;
+  margin-left: 1100px;
+  width: 400px;
+  font-size: 40px;
+  height: 200px;
+  border-radius: 42px;
+  border: 10px double #8091D5;
+  text-align: center;
+  font-family: 'Nanum Gothic Coding', monospace;
+  line-height: 100px;
+  word-break: break-all;
+}
+
+.high {
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 400px;
+  font-size: 40px;
+  height: 200px;
+  border-radius: 42px;
+  border: 10px double #8091D5;
+  text-align: center;
+  font-family: 'Nanum Gothic Coding', monospace;
+  line-height: 100px;
+  word-break: break-all;
+}
+
+.pro {
+  width: 100vw;
+  height: fit-content;
+}
+
+.p1 {
+  margin-top: 100px;
+  margin-left: 1100px;
+  width: 400px;
+  font-size: 50px;
+  height: 200px;
+  border-radius: 42px;
+  border: 10px double #FE663E;
+  text-align: center;
+  font-family: 'Nanum Gothic Coding', monospace;
+  line-height: 100px;
+}
+
+.p2 {
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 400px;
+  font-size: 50px;
+  height: 200px;
+  border-radius: 42px;
+  border: 10px double #FE663E;
+  text-align: center;
+  font-family: 'Nanum Gothic Coding', monospace;
+  line-height: 100px;
+}
+
+.p3 {
+  margin-top: 100px;
+  margin-left: 1100px;
+  width: 400px;
+  font-size: 50px;
+  height: 200px;
+  border-radius: 42px;
+  border: 10px double #FE663E;
+  text-align: center;
+  font-family: 'Nanum Gothic Coding', monospace;
+  line-height: 100px;
+}
+
+.con {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contact {
+  width: 700px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 125px;
+  font-size: 40px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.c {
+  width: fit-content;
+  height: fit-content;
+  float: left;
+}
+
+h1 {
+  opacity: 0.0;
+}
+
+
+
+
+
+
