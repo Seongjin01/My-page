@@ -3,7 +3,8 @@
 <img width="1678" alt="image" src="https://user-images.githubusercontent.com/102296551/176817512-ccbae3f7-4dbb-4e19-9ec0-15e7fa4c190f.png">
 
 ```
-이 페이지는 자바스크립트 라이브러리인 AOS(Animation on scroll).js를 사용한 프로젝트 입니다.
+이 페이지는 자바스크립트 라이브러리인
+AOS(Animation on scroll).js를 사용한 프로젝트 입니다.
 ```
 
 # header
@@ -15,7 +16,8 @@
 <img width="239" alt="image" src="https://user-images.githubusercontent.com/102296551/176817802-f8e2b454-2325-49ca-8334-fb9b12d0a039.png">
 
 ```
-커서를 올리면 글씨 아래에 줄이 생기는 애니메이션을 css로 만들어주었습니다.
+커서를 올리면 글씨 아래에 줄이 생기는 애니메이션을
+css로 만들어주었습니다.
 ```
 
 # section
@@ -38,7 +40,8 @@ AOS라는 라이브러리를 사용하여 애니메이션을 쉽게 만들어 �
 
 ```
 학교명은 Flip으로 애니메이션을 만들었고,
-프로젝트가 들어갈 칸은 모두 fade로 되어있는데 왼쪽과 오른쪽 요소의 등장하는 방항이 다르게 만들었습니다.
-
+프로젝트가 들어갈 칸은 모두 fade로 되어있는데 
+왼쪽과 오른쪽 요소의 등장하는 방항이 다르게 만들었습니다.
+```
 
 
